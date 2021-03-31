@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import styles from '../styles/Layout.module.css'
 import UserContactInfo from '../components/user-contact-info'
 import ObjectiveSkills from'../components/objective-skills'
@@ -7,24 +6,25 @@ import EducationDetails from '../components/education-details'
 
 export default function Layout() {
   return (
-    <div className={styles.container}>
-
       <div>
-        <UserContactInfo></UserContactInfo>
-      </div>
+        <div className={styles.header}>
+          <UserContactInfo></UserContactInfo>
+        </div>
 
-      <div>
-        <ObjectiveSkills></ObjectiveSkills>
-      </div>
+        <div className={styles['flex-container']}>
+          <div className={styles['flex-item-left']}>
+            <ObjectiveSkills></ObjectiveSkills>
+          </div>
+          <div className={styles['flex-item-center']}>
+            <WorkExperience></WorkExperience>
+          </div>
 
-      <div>
-        <WorkExperience></WorkExperience>
-      </div>
+        </div>
+        
+        <div className={styles.footer}>
+          <EducationDetails></EducationDetails>
+        </div>
 
-      <div>
-        <EducationDetails></EducationDetails>
       </div>
-
-    </div>
   )
 }

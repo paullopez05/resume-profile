@@ -1,12 +1,20 @@
-import styles from '../styles/ContactInfo.module.css'
+import styles from '../styles/UserContactInfo.module.css'
 
 const UserContactInfo = () => {
   return (
-    <div className={styles.main}>
-        <div className={styles.name}> Paul Lopez </div>
-        <div className={styles.contactinfo}> Developer/Engineer </div>
-        <div className={styles.contactinfo}> paullopez05@gmail.com </div>
-        <div className={styles.contactinfo}> 480.518.0729 </div>      
+    <div className={styles.container}>
+      <div className={styles.header}>
+        <div className={styles.fullname}> Paul Lopez </div>
+        <div className={styles['contact-details']}> 
+          Developer/Engineer 
+        </div>
+        <div className={styles['contact-details']}>
+          paullopez05@gmail.com
+        </div>
+        <div className={styles['contact-details']}>
+          480.518.0729
+        </div>      
+      </div>
     </div>
   )
 }

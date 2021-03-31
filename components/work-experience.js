@@ -1,31 +1,38 @@
+import styles from '../styles/WorkExperience.module.css'
+
 const WorkExperience = () => {
   return (
     <div>
 
       <b> Work Experience: </b>
-      <div className="experience">
+      
+      <div>
+       
         <div>
-          CIT - Automation Developer 02/2020 - 08/2020
+          <div>
+            CIT - Automation Developer 02/2020 - 08/2020
+          </div>
+          <div>
+            <ul>
+              <li>
+                Work in an agile environment to develop, test, and deploy automation jobs requested by the other departments.
+              </li>
+              <li>
+                Develop utilities to be used by the team to automate existing manual processes.
+              </li>
+              <li>
+                Perform peer reviews on code written by the other developers to ensure quality and that coding standards where followed.
+              </li>
+              <li>
+                Use Jira and ServiceNow to track progress and request approvals for deploying to production.
+              </li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <ul>
-            <li>
-              Work in an agile environment to develop, test, and deploy automation jobs requested by the other departments.
-            </li>
-            <li>
-              Develop utilities to be used by the team to automate existing manual processes.
-            </li>
-            <li>
-              Perform peer reviews on code written by the other developers to ensure quality and that coding standards where followed.
-            </li>
-            <li>
-              Use Jira and ServiceNow to track progress and request approvals for deploying to production.
-            </li>
-          </ul>
-        </div>
+
       </div>
 
-      <div className="experience">
+      <div>
         <div>
           Edgenuity - Network Operations Center Engineer 07/2018 - 02/2020
         </div>
@@ -47,7 +54,7 @@ const WorkExperience = () => {
         </div>
       </div>
 
-      <div className="experience">
+      <div>
         <div>
           Carrington College - IT Administrator 07/2014 - 07/2018
         </div>
@@ -69,7 +76,7 @@ const WorkExperience = () => {
         </div>
       </div>
 
-      <div className="experience">
+      <div>
         <div>
           Phoenix Medical Group - System Administrator 10/2011 - 07/2014
         </div>
@@ -91,7 +98,7 @@ const WorkExperience = () => {
         </div>
       </div>
 
-      <div className="experience">
+      <div>
         <div>
           Loan Resolution Corporation - Jr. Systems Administrator 01/2010 - 10/2011
         </div>
