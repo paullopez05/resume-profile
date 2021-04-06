@@ -1,0 +1,18 @@
+.objective-field {
+  width: 100%;
+  padding: 15px 10px 5px 15px;
+  text-align: center;
+}
+
+.objective-skillset {
+  padding: 15px 10px 5px 15px;
+  text-align: center;
+}
+
+.skill-list {
+  margin-top: 0px;
+}
+
+.skill-list > li {
+  list-style-type: none;
+}

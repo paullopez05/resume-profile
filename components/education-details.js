@@ -2,21 +2,27 @@ import styles from '../styles/EducationDetails.module.css'
 
 const EducationDetails = () => {
   return (
-    <div>
-        <b> Education Details </b>
-        <div>
+    <div className={styles.education}>
+        <div> Education Details </div>
+        <div className={styles.institution}>
           Devry University 2017 
-          <br/>
-          Bachelors of Science in Computer Information Systems (CIS) for Web Development
-          Executive Training Solutions - 2012
-          <br/>
-          Certification of completion - Crystal Reports and Microsoft SQL Server
-          Gateway Community College – 10/2011
-          <br/>
-          Certificate of completion in Management of Clinical Information Technology
         </div>
-        
-    </div>
+          <div>
+            Bachelors of Science in Computer Information Systems (CIS) for Web Development
+          </div>
+          <div className={styles.institution}>
+            Executive Training Solutions - 2012
+          </div>
+          <div>
+            Certification of completion - Crystal Reports and Microsoft SQL Server
+          </div>
+          <div className={styles.institution}>
+            Gateway Community College – 10/2011
+          </div>
+          <div>
+            Certificate of completion in Management of Clinical Information Technology
+          </div>
+        </div>
   )
 }
 

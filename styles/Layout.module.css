@@ -8,22 +8,26 @@
 
 .header {
   flex: 100%;
-  background-color: #d8d8d8;
+  background-color: #fff;
+}
+
+.objective {
+  align-items: center;
 }
 
 .footer {
   flex: 100%;
-  background-color: #e8e8e8;
+  background-color: #fff;
 }
 
 .flex-item-left {
-  background-color: tomato;
+  background-color: #fff;
   padding: 10px;
   flex: 30%;
 }
 
 .flex-item-center {
-  background-color: #f1f1f1;
+  background-color: #fff;
   padding: 0px;
   flex: 70%;
 }
@@ -42,5 +46,9 @@
 
   .header {
     text-align: center;
+  }
+
+  .education {
+    margin: 5px;
   }
 }

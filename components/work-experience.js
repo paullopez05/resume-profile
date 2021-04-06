@@ -2,18 +2,18 @@ import styles from '../styles/WorkExperience.module.css'
 
 const WorkExperience = () => {
   return (
-    <div>
+    <div className={styles.container}>
 
-      <b> Work Experience: </b>
-      
-      <div>
-       
-        <div>
-          <div>
+      <div className={styles['work-experience-title']}> 
+        Work Experience: 
+      </div>
+
+          <div className={styles['company-name']}>
             CIT - Automation Developer 02/2020 - 08/2020
           </div>
+
           <div>
-            <ul>
+            <ul className={styles['job-description']}>
               <li>
                 Work in an agile environment to develop, test, and deploy automation jobs requested by the other departments.
               </li>
@@ -28,16 +28,12 @@ const WorkExperience = () => {
               </li>
             </ul>
           </div>
-        </div>
 
-      </div>
-
-      <div>
-        <div>
+        <div className={styles['company-name']}>
           Edgenuity - Network Operations Center Engineer 07/2018 - 02/2020
         </div>
         <div>
-          <ul>
+          <ul className={styles['job-description']}>
             <li>
               Develop Web based applications to automate multiple tasks into a single a process to improve SLA’s
             </li>
@@ -52,14 +48,13 @@ const WorkExperience = () => {
             </li>
           </ul>
         </div>
-      </div>
 
-      <div>
-        <div>
+
+        <div className={styles['company-name']}>
           Carrington College - IT Administrator 07/2014 - 07/2018
         </div>
         <div>
-          <ul>
+          <ul className={styles['job-description']}>
             <li>
               Supported the Linux servers that hosted the company tools used by local and remote campuses.
             </li>
@@ -74,14 +69,12 @@ const WorkExperience = () => {
             </li>
           </ul>
         </div>
-      </div>
 
-      <div>
-        <div>
+        <div className={styles['company-name']}>
           Phoenix Medical Group - System Administrator 10/2011 - 07/2014
         </div>
         <div>
-          <ul>
+          <ul className={styles['job-description']}>
             <li>
               Develop SQL/Crystal reports for patient data requested by health care providers.
             </li>
@@ -96,14 +89,12 @@ const WorkExperience = () => {
             </li>
           </ul>
         </div>
-      </div>
 
-      <div>
-        <div>
+        <div className={styles['company-name']}>
           Loan Resolution Corporation - Jr. Systems Administrator 01/2010 - 10/2011
         </div>
         <div>
-          <ul>
+          <ul className={styles['job-description']}>
             <li>
               Provided tech support for 200+ users in a windows environment via the company ticketing system and Active Directory.
             </li>
@@ -115,8 +106,6 @@ const WorkExperience = () => {
             </li>
           </ul>
         </div>
-      </div>
-
 
     </div>
   )

@@ -3,12 +3,16 @@ import UserContactInfo from '../components/user-contact-info'
 import ObjectiveSkills from'../components/objective-skills'
 import WorkExperience from '../components/work-experience'
 import EducationDetails from '../components/education-details'
+import MissionObjective from '../components/mission-objective'
 
 export default function Layout() {
   return (
       <div>
         <div className={styles.header}>
           <UserContactInfo></UserContactInfo>
+        </div>
+        <div>
+          <MissionObjective></MissionObjective>
         </div>
 
         <div className={styles['flex-container']}>
@@ -20,7 +24,7 @@ export default function Layout() {
           </div>
 
         </div>
-        
+
         <div className={styles.footer}>
           <EducationDetails></EducationDetails>
         </div>

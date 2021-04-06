@@ -1,18 +1,50 @@
+import styles from '../styles/ObjectiveSkills.module.css'
 
 const ObjectiveSkills = () => {
   return(
     <div>
-       <b>Objective:</b> Seeking a position where I apply my problem solving skills to modern front and back-end web development in full stack applications and process automation.
-       <div>
-         <ul>
-           <li>
-             <b> Web Development: </b> NodeJS, VueJS, SailsJS, Jquery, Html/CSS, Bootstrap, MySql, MSSQL, Python, Java, C#, Asp.Net, PHP
-           </li>
-           <li>
-             <b> IT Administration: </b> AWS, Jira, Confluence, Docker, Windows Server, Linux, Exchange, Active Directory, MS SQL Database, Citrix XenServer, VMware, Bash, Powershell
-           </li>
-         </ul>
-       </div>
+      <div className={styles['objective-field']}>
+       Web Development
+      </div>
+
+      <div className={styles['objective-skillset']}>
+        <ul className={styles['skill-list']}>
+          <li> NodeJS </li>
+          <li>VueJS</li>
+          <li> SailsJS </li>
+          <li> Jquery </li>
+          <li> Html/CSS </li>
+          <li> Bootstrap </li>
+          <li> MySql </li>
+          <li> MSSQL </li>
+          <li> Python </li>
+          <li> PHP </li>
+          <li> Selenium </li>
+        </ul>
+      </div>
+             
+      <div className={styles['objective-field']}>
+        IT Administration:
+      </div>
+
+      <div className={styles['objective-skillset']}>
+      <ul className={styles['skill-list']}>
+          <li> AWS </li>
+          <li> Jira </li>
+          <li> Confluence </li>
+          <li> Docker </li>
+          <li> Windows Server </li>
+          <li> Linux </li>
+          <li> Exchange </li>
+          <li> Active Directory </li>
+          <li> MS SQL Database </li>
+          <li> Citrix XenServer </li>
+          <li> VMware </li>
+          <li> Bash </li>
+          <li> Powershell </li>
+        </ul>
+      </div>
+          
     </div>
   )
 }

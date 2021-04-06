@@ -4,7 +4,7 @@ const UserContactInfo = () => {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <div className={styles.fullname}> Paul Lopez </div>
+        <div className={styles.fullname}> &lt; Paul Lopez /&gt; </div>
         <div className={styles['contact-details']}> 
           Developer/Engineer 
         </div>

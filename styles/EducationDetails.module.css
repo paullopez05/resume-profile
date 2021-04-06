@@ -1,4 +1,13 @@
-/* .education {
-  width: 100%;
-  padding: 0;
-} */
+.education {
+  margin-left: 32%;
+}
+
+.education-details {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .education {
+    margin: 15px;
+  }
+}
