@@ -1,9 +1,19 @@
 .education {
-  margin-left: 32%;
+  padding: 5px 5px 5px 5px;
 }
 
 .education-details {
-  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 15px 15px 15px 0px;
+}
+
+.institution {
+  font-weight: 600;
+}
+
+.institution-details {
+  padding-bottom: 10px;
 }
 
 @media (max-width: 600px) {

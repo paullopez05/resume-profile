@@ -1,0 +1,21 @@
+{
+  "name": "MongoDB Overview",
+  "position": "MongoDB is no sql database",
+  "email": "paullopez05@gmail.com",
+  "phone": "480.518.0729",
+  "objective": "Seeking a position where I apply my problem solving skills to modern front and back-end web development in full stack applications and process automation.",
+  "webdevelopment": ["NodeJS", "VueJS", "Bootstrap"],
+  "itadministration": ["AWS", "Jira", "Confluence"],
+  "workexperience": {
+    "companyName": "CIT",
+    "title": "Automation Developer",
+    "startDate": 202008,
+    "endDate": 202104,
+    "jobTasks": [
+      "Work in an agile environment to develop, test, and deploy automation jobs requested by the other departments.",
+      "Develop utilities to be used by the team to automate existing manual processes.",
+      "Perform peer reviews on code written by the other developers to ensure quality and that coding standards where followed.",
+      "Use Jira and ServiceNow to track progress and request approvals for deploying to production."
+    ]
+  }
+}

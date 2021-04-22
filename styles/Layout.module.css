@@ -29,13 +29,18 @@
 .flex-item-center {
   background-color: #fff;
   padding: 0px;
+  background-color: #fff;
   flex: 70%;
 }
 
 .flex-item-right {
-  background-color: dodgerblue;
+  background-color: ;
   padding: 10px;
   flex: 25%;
+}
+
+.side-bar-color {
+  background-color: red;
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */

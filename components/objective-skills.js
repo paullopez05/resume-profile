@@ -2,7 +2,7 @@ import styles from '../styles/ObjectiveSkills.module.css'
 
 const ObjectiveSkills = () => {
   return(
-    <div>
+    <div className={styles['skillset-container']}>
       <div className={styles['objective-field']}>
        Web Development
       </div>

@@ -1,5 +1,8 @@
 .container {
   padding: 10px 10px 15px 10px;
+  background-color: #000;
+  color: #fff;
+  border-bottom: 2px solid rgb(68, 176, 238);
 }
 
 .header {

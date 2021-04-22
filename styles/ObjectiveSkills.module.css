@@ -1,18 +1,22 @@
 .objective-field {
-  width: 100%;
-  padding: 15px 10px 5px 15px;
+  padding: 15px 10px 5px 0px;
   text-align: center;
 }
 
 .objective-skillset {
-  padding: 15px 10px 5px 15px;
+  /* padding: 5px 10px 5px; */
   text-align: center;
 }
 
 .skill-list {
-  margin-top: 0px;
+  margin: 0px;
+  padding: 0;
 }
 
 .skill-list > li {
   list-style-type: none;
+}
+
+.skillset-container {
+  background-color: rgb(68, 176, 238);
 }
