@@ -1,6 +1,7 @@
 .container {
   padding-left: 15px;
   padding-right: 15px;
+  font-size: 22px;
 }
 
 .work-experience-title {
@@ -10,9 +11,26 @@
   padding: 15px 15px 15px 0px;
 }
 
+.start-end-dates {
+  font-weight: 500;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.company {
+  display: flex;
+}
+
+.company-and-title {
+  flex: 70%;
+}
+
 .company-name {
-  padding-top: 10px;
   font-weight: 600;
+}
+
+.work-dates {
+  flex: 30%;
 }
 
 .job-description > li {

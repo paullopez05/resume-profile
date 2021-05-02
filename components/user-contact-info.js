@@ -1,22 +1,16 @@
-import styles from '../styles/UserContactInfo.module.css'
+import styles from "../styles/UserContactInfo.module.css";
 
-const UserContactInfo = () => {
+const UserContactInfo = (ctx) => {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <div className={styles.fullname}> &lt; Paul Lopez /&gt; </div>
-        <div className={styles['contact-details']}> 
-          Developer/Engineer 
-        </div>
-        <div className={styles['contact-details']}>
-          paullopez05@gmail.com
-        </div>
-        <div className={styles['contact-details']}>
-          480.518.0729
-        </div>      
+        <div className={styles.fullname}> &lt; {ctx.props.name} /&gt; </div>
+        <div className={styles["contact-details"]}> {ctx.props.name} </div>
+        <div className={styles["contact-details"]}> {ctx.props.email} </div>
+        <div className={styles["contact-details"]}> {ctx.props.phone} </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default UserContactInfo
+export default UserContactInfo;
