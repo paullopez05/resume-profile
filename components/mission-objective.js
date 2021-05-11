@@ -2,9 +2,10 @@ import styles from "../styles/MissionObjective.module.css";
 
 const MissionObjective = (ctx) => {
   return (
-    <div>
+    <div className={styles.container}>
       <div className={styles.objective}>
-        <b>Objective:</b> {ctx.props.objective}
+        <span className={styles['objective-title']}>Objective</span> 
+        <div className={styles.summary}> {ctx.props.objective} </div>
       </div>
     </div>
   );

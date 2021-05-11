@@ -8,7 +8,7 @@ const EducationDetails = (ctx) => {
       </div>
         <>
           {ctx.props.map((item,key) =>
-            <div>
+            <div key={key}>
               <span className={styles.institution}> {item.location} - </span>
               <span className={styles.institution}> {item.startDate} </span>
               <div className={styles['institution-details']}> {item.description} </div>

@@ -1,5 +1,6 @@
 .education {
-  padding: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 15px;
+  font-size: 20px;
 }
 
 .education-details {
@@ -10,10 +11,11 @@
 
 .institution {
   font-weight: 600;
+  padding-bottom: 10px;
 }
 
 .institution-details {
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 @media (max-width: 600px) {
