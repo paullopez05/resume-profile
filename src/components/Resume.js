@@ -6,7 +6,7 @@ const Resume = () => {
   const [data, setData] = useState()
 
   const getResumeData = () => {
-    fetch('db.json')
+    fetch('http://localhost:4000/resume')
     .then( (response) => {
       return response.json()
     })

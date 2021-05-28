@@ -8,14 +8,55 @@ const Posts = (ctx) => {
     <>
       {ctx.props.map((items, key) => (
         <div key={key}>
-          {/* {items.objective} */}
-          <ul>
+
+          <div>
+            <div> {items.contactinfo.name} </div>
+            <div> {items.contactinfo.email} </div>
+            <div>{items.contactinfo.title} </div>
+            <div>{items.contactinfo.phone} </div>
+          </div>
+          <br />
+          {items.objectives.objective}
+          <br /><br />
+
           {items.webdevelopment.map((info,keys) => (
-            <li key={keys}>
+            <div key={keys}>
               {info}
-            </li>
+            </div>
           ))}
-          </ul>
+
+          <br />
+          <br />
+
+
+          {items.itadministration.map((info,keys) => (
+            <div key={keys}>
+              {info}
+            </div>
+          ))}
+          
+          <br /> <br />
+
+          {items.workexperience.map((info,keys) => (
+            <div key={keys}>
+              {info.companyName} <br />
+              {info.title} <br />
+              {info.startDate} <br />
+              {info.jobTasks} <br /> <br />
+            </div>
+          ))}
+
+          <br /> <br />
+
+          {items.education.map((info,keys) => (
+            <div key={keys}>
+              {info.location}
+              {info.startDate}
+              {info.endDate}
+              {info.Description}
+            </div>
+          ))}
+          
         </div>
         )
       )}
