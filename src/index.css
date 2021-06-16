@@ -15,3 +15,17 @@ code {
 nav {
   background-color: antiquewhite;
 }
+
+/* @media only screen and (min-width: 1000px) {
+  #leftcol {
+    background-color: red;
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #leftcol {
+    background-color: blue;
+    height: 5vh;
+  }
+} */
